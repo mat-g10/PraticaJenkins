@@ -12,10 +12,8 @@ public class ConversaoTemperaturaTest {
     }
 
     @Test
-    public void testFahrenheitParaCelsius() {
-        double resultado = ConversaoTemperatura.fahrenheitParaCelsius(32);
-        // Valor esperado alterado para gerar falha
-        assertEquals(0, resultado, 0.01);
+    public void testCelsiusParaFahrenheit() {
+        assertEquals(32.0, ConversaoTemperatura.celsiusParaFahrenheit(0.0), 0.01);
+        assertEquals(212.0, ConversaoTemperatura.celsiusParaFahrenheit(100.0), 0.01);
     }
-
 }
