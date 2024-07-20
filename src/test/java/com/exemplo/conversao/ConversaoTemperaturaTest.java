@@ -1,4 +1,5 @@
 package com.exemplo.conversao;
+import com.exemplo.conversao.ConversaoTemperatura;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
