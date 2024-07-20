@@ -1,7 +1,7 @@
 public class ConversaoTemperatura {
 
     public static double fahrenheitParaCelsius(double fahrenheit) {
-        return (fahrenheit - 32) * 4.0 / 9.0; // fórmula alterada para introduzir erro lógico
+        return (fahrenheit - 32) * 5.0 / 9.0;
     }
 
     public static double celsiusParaFahrenheit(double celsius) {
