@@ -1,2 +1,2 @@
 # PraticaJenkins
-Pratica No Jenkins
+Atividade Prática de Jenkins da disciplina de Gerência de Configuração
