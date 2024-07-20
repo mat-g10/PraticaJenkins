@@ -1,9 +1,7 @@
-package com.exemplo.conversao;
-
 public class ConversaoTemperatura {
 
     public static double fahrenheitParaCelsius(double fahrenheit) {
-        return (fahrenheit - 32) * 5.0 / 9.0;
+        return (fahrenheit - 32) * 5.0 / 9.0     //removendo o ponto e vírgula
     }
 
     public static double celsiusParaFahrenheit(double celsius) {
