@@ -1,3 +1,5 @@
+package com.exemplo.conversao;
+
 public class ConversaoTemperatura {
 
     public static double fahrenheitParaCelsius(double fahrenheit) {
